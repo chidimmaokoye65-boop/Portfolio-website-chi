@@ -31,6 +31,7 @@ body {
   margin:0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background:linear-gradient(to right, #1f2a38, #2c3e50);
+  padding-bottom: 50px;
 }
 
 .home-container {
@@ -78,7 +79,7 @@ body {
   margin-top: 50px;
   width: 100vw;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: -15px;
 }
 
 .home-footer a {
