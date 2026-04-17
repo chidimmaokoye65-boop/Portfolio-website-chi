@@ -402,3 +402,50 @@ margin-right: 15px;
 
 }
 
+@media (max-width: 768px) {
+
+  /* GENERAL BODY FIX */
+  body {
+    overflow-x: hidden;
+  }
+   .profile-content {
+    flex-direction: column;   /* stack image and text */
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .profile-image img {
+    margin-bottom: 20px;
+  }
+    .contact-box {
+    flex-direction: column;   /* stack info and form */
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+.projects-grid {
+    grid-template-columns: 1fr;  /* one per row */
+    justify-content: center;
+  }
+
+  .project-item {
+    max-width: 320px;
+    margin: auto;  /* center each card */
+  }
+  body {
+    min-height: 100vh;
+  }
+
+}
