@@ -210,12 +210,14 @@ body {
   color: #ff1717;
   font-size: 40px;
   margin-bottom: 10px;
+  padding-left: 20px;
 }
 
 .contact-subtext{
   color:#41c6d2;
   margin-bottom: 50px;
   font: size 45px; 
+  padding-left: 20px;
 }
 
 .contact-content {
@@ -231,6 +233,7 @@ body {
   flex: 0.5;
   text-align: left;
   color: #4c4ecc;
+  padding-left: 20px;
 }
 
 .contact-form{
@@ -477,6 +480,10 @@ margin-right: 15px;
   .nav-links a {
   margin-left: 15px;
   font-size: 3vw;
+  }
 
-}
+  .profile-text ul{
+    list-style-type: none ;
+  }
+
 }
