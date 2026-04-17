@@ -438,6 +438,7 @@ margin-right: 15px;
 .projects-grid {
     grid-template-columns: 1fr;  /* one per row */
     justify-content: center;
+    align-content: center;
   }
 
   .project-item {
@@ -446,6 +447,17 @@ margin-right: 15px;
   }
   body {
     min-height: 100vh;
+  }
+
+  .contact-content{
+    align-content: center;
+    flex-wrap: wrap;
+    width: 70vw;
+  }
+
+  .profile-container{
+    align-content: center;
+    flex-wrap: wrap;
   }
 
 }
