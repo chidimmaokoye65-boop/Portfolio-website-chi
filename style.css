@@ -324,3 +324,35 @@ margin-right: 15px;
   }
 
 }
+
+@media (max-width: 768px) {
+
+  .contact-box {
+    flex-direction: column;   /* STACK instead of side-by-side */
+    align-items: center;
+    gap: 30px;
+  }
+
+  .contact-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-form form {
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+}
